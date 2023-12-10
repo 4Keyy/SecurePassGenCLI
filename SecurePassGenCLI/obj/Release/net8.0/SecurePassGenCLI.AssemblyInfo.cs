@@ -12,9 +12,9 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("SecurePassGenCLI")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f807fe20b6ae1e02f8420e9e4d795515a162a41")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SecurePassGenCLI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SecurePassGenCLI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fkeyy\\Desktop\\SecurePassGenCLI\\SecurePassGenCLI\\SecurePassGenCLI.csproj",
+      "projectUniqueName": "C:\\Users\\fkeyy\\Source\\Repos\\4Keyy\\SecurePassGenCLI\\SecurePassGenCLI\\SecurePassGenCLI.csproj",
       "projectName": "SecurePassGenCLI",
-      "projectPath": "C:\\Users\\fkeyy\\Desktop\\SecurePassGenCLI\\SecurePassGenCLI\\SecurePassGenCLI.csproj",
+      "projectPath": "C:\\Users\\fkeyy\\Source\\Repos\\4Keyy\\SecurePassGenCLI\\SecurePassGenCLI\\SecurePassGenCLI.csproj",
       "packagesPath": "C:\\Users\\fkeyy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fkeyy\\Desktop\\SecurePassGenCLI\\SecurePassGenCLI\\obj\\",
+      "outputPath": "C:\\Users\\fkeyy\\Source\\Repos\\4Keyy\\SecurePassGenCLI\\SecurePassGenCLI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fkeyy\\AppData\\Roaming\\NuGet\\NuGet.Config",
