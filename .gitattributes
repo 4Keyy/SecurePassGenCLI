@@ -1,0 +1,72 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# C# source code files
+*.cs text
+
+# XML files
+*.xml text
+
+# JSON files
+*.json text
+
+# Markdown files
+*.md text
+
+# Windows DLL files
+*.dll binary
+
+# Windows executable files
+*.exe binary
+
+# Windows icon files
+*.ico binary
+
+# Windows binary resources
+*.resx binary
+
+# Visual Studio files
+*.suo binary
+*.user binary
+*.userosscache binary
+*.sln.docstates binary
+
+# Windows Installer files
+*.cab binary
+*.msi binary
+*.msm binary
+*.msp binary
+
+# Windows shortcuts
+*.lnk binary
+
+# JetBrains Rider
+.idea/ binary
+*.suo binary
+*.user binary
+*.userosscache binary
+*.sln.docstates binary
+
+# Mono Auto Generated Files
+mono_crash.* binary
+
+# Windows image file caches
+Thumbs.db binary
+ehthumbs.db binary
+
+# Folder config file
+Desktop.ini binary
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/ binary
+
+# VS Code directories
+.vscode/ binary
+.vscode-test/ binary
+
+# Roslyn Cache
+*.ide binary
+
+# Windows image file caches
+Thumbs.db binary
+ehthumbs.db binary

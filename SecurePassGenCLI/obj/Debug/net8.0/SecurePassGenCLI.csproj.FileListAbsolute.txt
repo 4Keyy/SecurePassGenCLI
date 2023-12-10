@@ -1,0 +1,14 @@
+C:\Users\fkeyy\Desktop\SecurePassGenCLI\SecurePassGenCLI\bin\Debug\net8.0\SecurePassGenCLI.exe
+C:\Users\fkeyy\Desktop\SecurePassGenCLI\SecurePassGenCLI\bin\Debug\net8.0\SecurePassGenCLI.deps.json
+C:\Users\fkeyy\Desktop\SecurePassGenCLI\SecurePassGenCLI\bin\Debug\net8.0\SecurePassGenCLI.runtimeconfig.json
+C:\Users\fkeyy\Desktop\SecurePassGenCLI\SecurePassGenCLI\bin\Debug\net8.0\SecurePassGenCLI.dll
+C:\Users\fkeyy\Desktop\SecurePassGenCLI\SecurePassGenCLI\bin\Debug\net8.0\SecurePassGenCLI.pdb
+C:\Users\fkeyy\Desktop\SecurePassGenCLI\SecurePassGenCLI\obj\Debug\net8.0\SecurePassGenCLI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fkeyy\Desktop\SecurePassGenCLI\SecurePassGenCLI\obj\Debug\net8.0\SecurePassGenCLI.AssemblyInfoInputs.cache
+C:\Users\fkeyy\Desktop\SecurePassGenCLI\SecurePassGenCLI\obj\Debug\net8.0\SecurePassGenCLI.AssemblyInfo.cs
+C:\Users\fkeyy\Desktop\SecurePassGenCLI\SecurePassGenCLI\obj\Debug\net8.0\SecurePassGenCLI.csproj.CoreCompileInputs.cache
+C:\Users\fkeyy\Desktop\SecurePassGenCLI\SecurePassGenCLI\obj\Debug\net8.0\SecurePassGenCLI.dll
+C:\Users\fkeyy\Desktop\SecurePassGenCLI\SecurePassGenCLI\obj\Debug\net8.0\refint\SecurePassGenCLI.dll
+C:\Users\fkeyy\Desktop\SecurePassGenCLI\SecurePassGenCLI\obj\Debug\net8.0\SecurePassGenCLI.pdb
+C:\Users\fkeyy\Desktop\SecurePassGenCLI\SecurePassGenCLI\obj\Debug\net8.0\SecurePassGenCLI.genruntimeconfig.cache
+C:\Users\fkeyy\Desktop\SecurePassGenCLI\SecurePassGenCLI\obj\Debug\net8.0\ref\SecurePassGenCLI.dll
