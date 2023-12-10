@@ -27,7 +27,7 @@ namespace SecurePassGenCLI.Managers
 
                     if (Enum.TryParse(Console.ReadLine(), out PasswordStrength selectedStrength) && Enum.IsDefined(typeof(PasswordStrength), selectedStrength))
                     {
-                        int length = GetUserInput("Choose password length (8 min): ", 8, 100);
+                        int length = GetUserInput("Choose password length (8 min, 19 optimal): ", 8, 100);
 
                         var options = new PasswordOptions
                         {
@@ -52,6 +52,7 @@ namespace SecurePassGenCLI.Managers
                     else
                     {
                         Console.WriteLine("Invalid input. Please enter a valid number for password strength.");
+                        Console.Clear();
                     }
                 }
             }

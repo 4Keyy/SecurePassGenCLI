@@ -13,6 +13,6 @@ namespace SecurePassGenCLI.Options
         public const string UppercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         public const string LowercaseLetters = "abcdefghijklmnopqrstuvwxyz";
         public const string Digits = "0123456789";
-        public const string SpecialCharacters = "!@#$%^&*()-_=+[]{}|;:'\",.<>/?";
+        public const string SpecialCharacters = "!@#$%&*()=+[]?";
     }
 }

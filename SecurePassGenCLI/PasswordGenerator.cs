@@ -17,7 +17,7 @@ namespace SecurePassGenCLI
                 throw new ArgumentException("At least one character set must be selected for the password.");
             }
 
-            Span<char> password = stackalloc char[options.Length];
+            Span<char> passwordChars = stackalloc char[options.Length];
             using var rng = new RNGCryptoServiceProvider();
             byte[] randomBytes = new byte[4];
 
@@ -25,10 +25,22 @@ namespace SecurePassGenCLI
             {
                 rng.GetBytes(randomBytes);
                 uint randomIndex = (uint)(BitConverter.ToUInt32(randomBytes, 0) % allChars.Count);
-                password[i] = allChars[(int)randomIndex];
+                passwordChars[i] = allChars[(int)randomIndex];
             }
 
-            return new string(password);
+            char[] pass = new char[options.Length];
+
+            for (int i = 0; i < pass.Length; i++)
+            {
+                pass[i] = i < passwordChars.Length ? passwordChars[i] : '\0';
+
+                if ((i + 1) % 5 == 0 && i != 0)
+                {
+                    pass[i] = '-';
+                }
+            }
+
+            return new string(pass);
         }
 
         private static void ValidateOptions(PasswordOptions options)
@@ -127,7 +139,7 @@ namespace SecurePassGenCLI
 
         private static bool ContainsSpecialCharacter(string password)
         {
-            const string specialCharacters = "!@#$%^&*()-_=+[]{}|;:'\",.<>/?";
+            const string specialCharacters = "!@#$%&*()=+[]?";
             return password.Intersect(specialCharacters).Any();
         }
 
