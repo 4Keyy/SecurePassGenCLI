@@ -26,21 +26,13 @@ namespace SecurePassGenCLI
                 rng.GetBytes(randomBytes);
                 uint randomIndex = (uint)(BitConverter.ToUInt32(randomBytes, 0) % allChars.Count);
                 passwordChars[i] = allChars[(int)randomIndex];
-            }
-
-            char[] pass = new char[options.Length];
-
-            for (int i = 0; i < pass.Length; i++)
-            {
-                pass[i] = i < passwordChars.Length ? passwordChars[i] : '\0';
-
                 if ((i + 1) % 5 == 0 && i != 0)
                 {
-                    pass[i] = '-';
+                    passwordChars[i] = '-';
                 }
             }
 
-            return new string(pass);
+            return new string(passwordChars);
         }
 
         private static void ValidateOptions(PasswordOptions options)
